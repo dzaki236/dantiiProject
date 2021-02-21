@@ -1,0 +1,98 @@
+body{
+    box-sizing: content-box;
+    margin: 0;
+    padding: 0;
+    background-color:;
+}
+
+/*navbar start*/
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+    padding: 0px 10%;
+    background-color:#ffcccc;
+}
+
+.sb img{
+}
+
+.nav-link{
+    list-style: none;
+    margin-right: 290px;
+}
+
+.nav-link li{
+    display: inline-block;
+    padding: 0px 25px;
+}
+
+.sc-link{
+    font-weight: 500;
+    font-size: 25px;
+    color: #57606f;
+    text-decoration: none;
+}
+
+.sc-link:hover::after{
+    content: "";
+    display: block;
+    border-bottom: 3px solid #57606f;
+    width: 100%;
+    margin: auto;
+    padding-bottom: 5px;
+    margin-bottom: -8px;
+
+}
+
+/*header start*/
+.container{
+    padding: 3rem 10rem;
+}
+
+.main{
+    width: 100%;
+    height: 90vh;
+    background-image: url("scarlett.JPG");
+    background-size: cover;
+    position: absolute;
+    z-index: -1;
+    margin-top: 70px;
+}
+
+.main-content{
+    display: flex;
+}
+
+.text{
+    font-family: 'Quicksand', sans-serif;
+    padding-top: 10rem;
+}
+
+.text h1{
+    padding: 10px 10%;
+    color: white;
+   
+} 
+
+.btn{
+    padding: 10px 5%;
+    background-color: #f8a5c2;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    margin right: ;
+}
+
+.btn:hover{
+    background-color: #ffcccc;
+    color: #57606f;
+    transition: 0.5s;
+
+}
+
+
+

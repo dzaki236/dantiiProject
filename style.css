@@ -2,7 +2,7 @@ body{
     box-sizing: content-box;
     margin: 0;
     padding: 0;
-    background-color:;
+    background-color:pink;
 }
 
 /*navbar start*/
@@ -15,9 +15,6 @@ body{
     width: 100%;
     padding: 0px 10%;
     background-color:#ffcccc;
-}
-
-.sb img{
 }
 
 .nav-link{
@@ -84,7 +81,6 @@ body{
     color: white;
     text-decoration: none;
     border-radius: 5px;
-    margin right: ;
 }
 
 .btn:hover{

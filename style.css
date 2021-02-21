@@ -1,5 +1,4 @@
 body{
-    box-sizing: content-box;
     margin: 0;
     padding: 0;
     background-color:pink;
@@ -52,11 +51,12 @@ body{
 
 .main{
     width: 100%;
-    height: 90vh;
+    height: 100%;
     background-image: url("scarlett.JPG");
     background-size: cover;
+    background-position-y: 10px;
+    background-repeat:no-repeat;
     position: absolute;
-    z-index: -1;
     margin-top: 70px;
 }
 
